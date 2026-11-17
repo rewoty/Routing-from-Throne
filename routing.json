@@ -7,7 +7,7 @@
     "enable_dns_routing": true,
     "fake_dns": true,
     "fakeip_disable_ipv6": true,
-    "remote_dns": "https://9.9.9.9",
+    "remote_dns": "https://8.8.8.8/dns-query",
     "remote_dns_disable_ipv6": true
   },
   "kind": "throne-route-profile",
@@ -341,17 +341,6 @@
         "169.254.0.0/16",
         "224.0.0.0/4",
         "255.255.255.255"
-      ],
-      "name": "Simple Address Bypass",
-      "outbound": "direct",
-      "rule_set": [
-        "geosite-roblox",
-        "geosite-steam",
-        "geosite-steaminventoryhelper",
-        "geosite-tbank-ru",
-        "geosite-vk",
-        "geosite-t2-ru",
-        "geosite-yandex"
       ],
       "type": "simple_address_bypass"
     },
