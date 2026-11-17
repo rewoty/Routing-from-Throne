@@ -1,0 +1,1 @@
+To add routing rules, make sure you have version 1.4.0-beta.1 or higher installed. Go to Throne, find the "Routing" button at the top, then find the "Create" button - Remote profile, enter the profile name (any) and the JSON file link (https://raw.githubusercontent.com/rewoty/Routing-from-Throne/refs/heads/main/routing.json), click OK, and apply the profile.
