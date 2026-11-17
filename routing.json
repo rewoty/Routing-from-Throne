@@ -7,11 +7,11 @@
     "enable_dns_routing": true,
     "fake_dns": true,
     "fakeip_disable_ipv6": true,
-    "remote_dns": "https://8.8.8.8/dns-query",
+    "remote_dns": "https://9.9.9.9",
     "remote_dns_disable_ipv6": true
   },
   "kind": "throne-route-profile",
-  "name": "основной",
+  "name": "Основной профиль",
   "rules": [
     {
       "action": "route",
