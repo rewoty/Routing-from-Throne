@@ -11,8 +11,17 @@
     "remote_dns_disable_ipv6": true
   },
   "kind": "throne-route-profile",
-  "name": "Основной профиль",
+  "name": "Main profile",
   "rules": [
+    {
+      "action": "route",
+      "domain_suffix": [
+        "spotify.com"
+      ],
+      "name": "Simple Address Proxy",
+      "outbound": "proxy",
+      "type": "simple_address_proxy"
+    },
     {
       "action": "route",
       "name": "Simple Process Name Bypass",
@@ -344,6 +353,8 @@
         "224.0.0.0/4",
         "255.255.255.255"
       ],
+      "name": "Simple Address Bypass",
+      "outbound": "direct",
       "type": "simple_address_bypass"
     },
     {
