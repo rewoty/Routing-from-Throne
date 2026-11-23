@@ -16,7 +16,9 @@
     {
       "action": "route",
       "domain_suffix": [
-        "spotify.com"
+        "spotify.com",
+        "scdn.co",
+        "spotifycdn.com"
       ],
       "name": "Simple Address Proxy",
       "outbound": "proxy",
